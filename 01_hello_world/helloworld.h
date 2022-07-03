@@ -1,7 +1,10 @@
 #pragma once
 
 #include <QtWidgets/QMainWindow>
+#include "QAction.h"
+
 #include "ui_helloworld.h"
+#include "CentralWindow.h"
 
 class HelloWorld : public QMainWindow
 {
@@ -13,4 +16,6 @@ public:
 
 private:
     Ui::HelloWorldClass ui;
+    CentralWindow m_cw;
+    QAction m_openAct;
 };
