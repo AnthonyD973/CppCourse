@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_hello_world", "01_hello_world\HelloWorld.vcxproj", "{6BFC978A-F7C9-425A-8FDB-C50EDF5CAF6E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_fixed_tic_tac_toe", "02_fixed_tic_tac_toe\02_fixed_tic_tac_toe.vcxproj", "{1FA7393D-72D8-458C-8FA6-73F934C0729B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{6BFC978A-F7C9-425A-8FDB-C50EDF5CAF6E}.Debug|x64.Build.0 = Debug|x64
 		{6BFC978A-F7C9-425A-8FDB-C50EDF5CAF6E}.Release|x64.ActiveCfg = Release|x64
 		{6BFC978A-F7C9-425A-8FDB-C50EDF5CAF6E}.Release|x64.Build.0 = Release|x64
+		{1FA7393D-72D8-458C-8FA6-73F934C0729B}.Debug|x64.ActiveCfg = Debug|x64
+		{1FA7393D-72D8-458C-8FA6-73F934C0729B}.Debug|x64.Build.0 = Debug|x64
+		{1FA7393D-72D8-458C-8FA6-73F934C0729B}.Release|x64.ActiveCfg = Release|x64
+		{1FA7393D-72D8-458C-8FA6-73F934C0729B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
