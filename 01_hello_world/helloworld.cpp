@@ -5,7 +5,7 @@
 HelloWorld::HelloWorld(QWidget *parent)
     : QMainWindow(parent)
     , m_cw(this)
-    , m_openAct("&Open", this)
+    , m_openAct("&Open (doesn't actually do anything)", this)
 {
     ui.setupUi(this);
     setCentralWidget(&m_cw);
