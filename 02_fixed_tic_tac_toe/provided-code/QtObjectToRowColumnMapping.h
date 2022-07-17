@@ -20,23 +20,6 @@ public:
      * Adds a mapping between the Qt object pointer and the given row and
      * column so that, from now on, getMapping() will return that mapping for
      * that pointer.
-     *
-     * NOTE:
-     *
-     * This function with all its arguments made a line of code that was too
-     * long, so I split the function's name and argument into multiple lines as
-     * you can see. It's a good idea to break up long lines of code into
-     * multiple smaller ones. One reason is that you can see everything without
-     * having to scroll left and right all the time.
-     *
-     * Remember: reading the code is more important than writing the code
-     * because in the real world a line of code will be read many times before
-     * somebody changes it. So always help others read your code (and help future
-     * you who doesn't remember what the code does!) by formatting your code well.
-     *
-     * Many people recommend not writing lines of more than 80 characters.
-     * Personally I almost never write lines of more than 80 characters, but if you
-     * want to write lines a bit longer than that it's still okay.
      */
     void addMapping(
         QObject* button,

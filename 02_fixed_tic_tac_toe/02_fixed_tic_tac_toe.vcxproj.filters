@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="TicTacToeWidget.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="provided-code\QtObjectToRowColumnMapping.cpp">
       <Filter>provided-code</Filter>
@@ -12,9 +11,11 @@
     <ClCompile Include="provided-code\SquareWidget.cpp">
       <Filter>provided-code</Filter>
     </ClCompile>
+    <ClCompile Include="provided-code\TicTacToeWidget.cpp">
+      <Filter>provided-code</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TicTacToeWidget.h" />
     <ClInclude Include="provided-code\QtObjectToRowColumnMapping.h">
       <Filter>provided-code</Filter>
     </ClInclude>
@@ -24,6 +25,10 @@
     <ClInclude Include="provided-code\SquareWidget.h">
       <Filter>provided-code</Filter>
     </ClInclude>
+    <ClInclude Include="provided-code\TicTacToeWidget.h">
+      <Filter>provided-code</Filter>
+    </ClInclude>
+    <ClInclude Include="main_functions.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="provided-code">

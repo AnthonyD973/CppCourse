@@ -1,6 +1,7 @@
 #pragma once
 
-#include "QtWidgets/qwidget.h"
+#include "qpushbutton.h"
+#include "qgridlayout.h"
 
 #include "provided-code/QtObjectToRowColumnMapping.h"
 #include "provided-code/SquareWidget.h"
@@ -8,8 +9,8 @@
 /**
  * This only represents the tic-tac-toe part ("Widget") of the interface (like
  * adding buttons and making them do something). For the data of the
- * tic-tac-toe game, checking whether somebody has won, etc, we will create a
- * separate code file.
+ * tic-tac-toe game, and for checking whether somebody has won, etc, we will
+ * create a separate code file.
  */
 class TicTacToeWidget : public SquareWidget
 {
@@ -22,6 +23,11 @@ public:
      */
     void reset();
     /**
+     * Function which is needed by the widget to add buttons, and to know the
+     * row/column that it is at.
+     */
+    void addButton(QPushButton* button, unsigned int row, unsigned int column);
+    /**
      * Function which is called whenever one of the tic-tac-toe buttons is
      * clicked.
      */
@@ -29,4 +35,5 @@ public:
 
 private:
     QtObjectToRowColumnMapping m_rcMappings;
+    QGridLayout* m_layout;
 };
