@@ -4,7 +4,7 @@ TttMainWin::TttMainWin(QWidget *parent) :
     QMainWindow(parent)
 {
     ui.setupUi(this);
-    m_ttt = new TicTacToe(this);
+    m_ttt = new TicTacToeWidget(this);
     setCentralWidget(m_ttt);
 
     // Add a "Game" menu.

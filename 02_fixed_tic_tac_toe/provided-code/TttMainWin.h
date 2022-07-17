@@ -3,7 +3,7 @@
 #include <QtWidgets/QMainWindow>
 
 #include "ui__fixed_tic_tac_toe.h"
-#include "TicTacToe.h"
+#include "TicTacToeWidget.h"
 
 class TttMainWin : public QMainWindow
 {
@@ -17,5 +17,5 @@ public:
 
 private:
     Ui::_fixed_tic_tac_toeClass ui;
-    TicTacToe* m_ttt;
+    TicTacToeWidget* m_ttt;
 };
