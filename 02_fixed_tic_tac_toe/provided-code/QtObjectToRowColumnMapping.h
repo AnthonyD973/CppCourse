@@ -4,7 +4,7 @@
 
 #include "qobject.h"
 
-#include "RowColumn.h"
+#include "provided-code/RowColumn.h"
 
 /**
  * You don't need to modify this code, but you can look at it if you want.
@@ -56,4 +56,3 @@ public:
 private:
     std::map<QObject*, RowColumn> m_mappings;
 };
-

@@ -1,4 +1,4 @@
-#include "ttt_main_win.h"
+#include "TttMainWin.h"
 
 TttMainWin::TttMainWin(QWidget *parent) :
     QMainWindow(parent)

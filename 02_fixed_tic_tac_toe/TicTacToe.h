@@ -2,7 +2,7 @@
 
 #include "QtWidgets/qwidget.h"
 
-#include "QtObjectToRowColumnMapping.h"
+#include "provided-code/QtObjectToRowColumnMapping.h"
 
 class TicTacToe : public QWidget
 {

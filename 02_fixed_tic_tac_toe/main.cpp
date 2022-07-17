@@ -1,4 +1,4 @@
-#include "ttt_main_win.h"
+#include "provided-code/TttMainWin.h"
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])
