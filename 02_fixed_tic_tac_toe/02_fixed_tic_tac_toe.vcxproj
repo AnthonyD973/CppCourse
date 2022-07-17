@@ -88,6 +88,7 @@
     <QtRcc Include="_fixed_tic_tac_toe.qrc" />
     <QtUic Include="_fixed_tic_tac_toe.ui" />
     <QtMoc Include="ttt_main_win.h" />
+    <ClCompile Include="QtObjectToRowColumnMapping.cpp" />
     <ClCompile Include="TicTacToe.cpp" />
     <ClCompile Include="ttt_main_win.cpp" />
     <ClCompile Include="main.cpp" />
@@ -95,6 +96,8 @@
     <ResourceCompile Include="02_fixed_tic_tac_toe.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="QtObjectToRowColumnMapping.h" />
+    <ClInclude Include="RowColumn.h" />
     <ClInclude Include="TicTacToe.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
