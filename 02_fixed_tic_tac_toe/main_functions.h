@@ -11,6 +11,6 @@ class TicTacToeWidget;
 //
 // You do not need to change this file.
 
-void setupGame(TicTacToeWidget* tttWidget);
 void resetGame();
 void onButtonClicked(unsigned int row, unsigned int column);
+void setupGame(TicTacToeWidget* tttWidget);
